@@ -8,3 +8,14 @@ function processArray(numbers) {
       }
     });
   }
+  //Task 2
+  function formatArrayStrings(stringArr, numArr) {
+    return stringArr.map((str, index) => {
+      if (numArr[index] % 2 === 0) {
+        return str.toUpperCase();
+      } else {
+        return str.toLowerCase();
+      }
+    });
+  }
+  
